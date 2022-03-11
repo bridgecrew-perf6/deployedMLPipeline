@@ -1,0 +1,10 @@
+name: deployedML
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3.7
+    - pip
+    - pandas-profiling
+    - pip:
+      - streamlit
